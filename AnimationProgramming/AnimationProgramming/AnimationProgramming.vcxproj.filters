@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Include\Maths">
+      <UniqueIdentifier>{73bb4bc7-0863-4f44-b076-badf245a63f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Maths">
+      <UniqueIdentifier>{db109fdc-e46f-4238-a918-e12e06fcabbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{ee798b51-b429-4018-b604-d4fd8d3eb014}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulation.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Maths\mat4.hpp">
+      <Filter>Include\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Maths\maths.hpp">
+      <Filter>Include\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Maths\quaternion.hpp">
+      <Filter>Include\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Maths\vec2.hpp">
+      <Filter>Include\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Maths\vec3.hpp">
+      <Filter>Include\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Maths\vec4.hpp">
+      <Filter>Include\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Maths\transform.hpp">
+      <Filter>Include\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\bone.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Skeleton.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SkeletonAnimation.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\AnimationBlend.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationProgramming.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Maths\mat4.cpp">
+      <Filter>Src\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Maths\quaternion.cpp">
+      <Filter>Src\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Maths\vec2.cpp">
+      <Filter>Src\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Maths\vec3.cpp">
+      <Filter>Src\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Maths\vec4.cpp">
+      <Filter>Src\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Maths\transform.cpp">
+      <Filter>Src\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\bone.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Skeleton.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SkeletonAnimation.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AnimationBlend.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Data\Resources\skinning.ps">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\Data\Resources\skinning.vs">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>
